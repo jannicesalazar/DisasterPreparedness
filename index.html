@@ -1,54 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Disaster Management Portal</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREPARE</title>
+    <link rel="icon" type="png" href="tab.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Disaster Management Portal</h1>
-    <nav>
-      <ul>
-        <li><a href="#dashboard">Dashboard</a></li>
-        <li><a href="#map">Disaster Map</a></li>
-        <li><a href="#evacuation">Evacuation Routes</a></li>
-        <li><a href="#shelters">Shelters</a></li>
-        <li><a href="#resources">Resources</a></li>
-        <li><a href="#forums">Forums</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <div class="top-bar">
+            <div class="left-section">
+                <div class="prepare">PREPARE</div>
+            </div>
+            <div class="right-section">
+                <a href="#" class="login">Login</a> 
+                <a href="#" class="register">Register</a>
+            </div>
+        </div>
+        <nav>
+          <ul>
+              <li><a href="#">Home</a></li>
+          </ul>
+      </nav>
+    </header>
 
-  <section id="registration">
-    <div class="container">
-      <h2>User Registration</h2>
-      <form action="#" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Join our community for disaster preparedness</h2>
+            <p>Be Ready and Stay Safe</p>
+            <br>
+            <a href="#" class="btn1">Get Started</a>
+        </div>
+    </section >
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-
-        <label for="location">Location:</label>
-        <input type="text" id="location" name="location" required>
-
-        <label for="contact">Contact Information:</label>
-        <input type="text" id="contact" name="contact" required>
-
-        <button type="submit">Register</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- Other sections would follow similarly -->
-
-  <footer>
-    <p>&copy; 2024 Disaster Management Portal</p>
-  </footer>
+    <section style="align-items: center;">
+    <div class="square" id="location1"></div>
+    <div class="square" id="location2"></div>
+    <div class="square" id="location3"></div>
+    <div class="square" id="location4"></div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
