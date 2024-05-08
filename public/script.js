@@ -92,3 +92,32 @@ document.getElementById('input').addEventListener('keydown', function (e) {
                 //clears input value in input box 
                 this.value = ''; } } });
 
+// Function to open the login popup
+function openPopup() {
+    document.getElementById('popup-container').style.display = 'block';
+}
+
+// Function to close the login popup
+function closePopup() {
+    document.getElementById('popup-container').style.display = 'none';
+}
+
+// Function to show the registration form
+function showRegister() {
+    // Code to display the registration form, similar to the login form
+}
+
+// Function to handle login
+function login() {
+    // Code to handle login authentication
+    // Example:
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    // Perform authentication logic here
+    // Example: You can send a request to your server to validate credentials
+}
+
+function redirectToRegister() {
+    window.location.href = 'login.html#registerScreen';
+}
